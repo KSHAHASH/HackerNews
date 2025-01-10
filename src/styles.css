@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the entire app */
+.news-app {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Loading message or spinner */
+.loading {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Search form */
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.search-form input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #2980b9;
+}
+
+/* News articles list */
+.news-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+.news-list p {
+    font-size: 16px;
+    color: #555;
+    /* min-height: 100vh; */
+}
+
+.news-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    row-gap: 1px;
+}
+.flex-inner-div{
+    margin-bottom:30px ;
+}
