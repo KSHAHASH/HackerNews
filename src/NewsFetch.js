@@ -1,3 +1,4 @@
+//Added extra feature navigating to the details of the news title
 import React, { Component, useState, useEffect } from "react";
 import "./styles.css";
 
